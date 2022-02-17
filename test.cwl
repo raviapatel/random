@@ -3,9 +3,6 @@
 cwlVersion: v1.0
 class: Workflow
 
-outputs:
-  [constutive_parameters.json]
-
 inputs:
   EmodulProcessedDataPath:
     type: str
@@ -15,6 +12,9 @@ inputs:
     type: str
   compressionRawdataPath:
     type: str
+outputs:
+  constutive_parameters:File
+
 steps:
 
   task_emodul_knowledge_graph:
