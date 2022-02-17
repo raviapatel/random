@@ -17,11 +17,6 @@ inputs:
     type: str
 steps:
 
-  make_dependencies:
-    run: make_dependencies.cwl
-    in:[]
-    out: []
-
   task_emodul_knowledge_graph:
     run: gen_emodul_knowledge_graph.cwl
     in:
