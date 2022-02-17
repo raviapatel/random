@@ -19,7 +19,7 @@ inputs:
 outputs:
   constitutive_parameters:
     type: File
-    outputSource:parameters.json
+    outputSource:./parameters.json
 steps:
 
   task_emodul_knowledge_graph:
