@@ -6,15 +6,19 @@ class: Workflow
 inputs:
   EmodulProcessedDataPath:
     type: string
+    
   EmodulRawDataPath:
     type: string
-  compressionProcessedDataPath :
+    
+  compressionProcessedDataPath:
     type: string
+    
   compressionRawdataPath:
     type: string
+    
 outputs:
   type: File
-  outputSource:constutive_parameters
+  outputSource: constutive_parameters
 
 steps:
 
