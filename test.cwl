@@ -36,4 +36,4 @@ steps:
     in:
       RawData: EmodulProcessedDataPath
       ProcessedData: EmodulRawDataPath
-    out: [constutive_parameters]
+    out:  constutive_parameters
