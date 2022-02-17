@@ -19,7 +19,6 @@ inputs:
 outputs:
   constitutive_parameters:
     type: File
-    outputSource: constutive_parameters
 
 steps:
 
