@@ -19,7 +19,7 @@ inputs:
 outputs:
   constitutive_parameters:
     type: File
-    outputSource:./parameters.json
+    outputSource:parameters
 steps:
 
   task_emodul_knowledge_graph:
@@ -41,4 +41,4 @@ steps:
     in:
       RawData: EmodulProcessedDataPath
       ProcessedData: EmodulRawDataPath
-    out: [parameters.json]
+    out: [parameters]
