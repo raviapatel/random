@@ -19,9 +19,9 @@ inputs:
 outputs:
   constitutive_parameters:
     type: File
-    outputSource:parameters
-steps:
 
+
+steps:
   task_emodul_knowledge_graph:
     run: gen_emodul_knowledge_graph.cwl
     in:
@@ -41,4 +41,4 @@ steps:
     in:
       RawData: EmodulProcessedDataPath
       ProcessedData: EmodulRawDataPath
-    out: [parameters]
+    out: [constitutive_parameters]
