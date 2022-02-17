@@ -17,8 +17,9 @@ inputs:
     type: string
     
 outputs:
-  type: File
-  outputSource: constutive_parameters
+  constitutive_parameters:
+    type: File
+    outputSource: constutive_parameters
 
 steps:
 
@@ -41,6 +42,4 @@ steps:
     in:
       RawData: EmodulProcessedDataPath
       ProcessedData: EmodulRawDataPath
-    out:  
-    constutive_parameters
-    type: File
+    out: [constitutive_parameters]
