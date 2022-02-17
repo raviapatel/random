@@ -13,7 +13,8 @@ inputs:
   compressionRawdataPath:
     type: string
 outputs:
-  constutive_parameters:File
+  type: File
+  outputSource:constutive_parameters
 
 steps:
 
@@ -36,4 +37,4 @@ steps:
     in:
       RawData: EmodulProcessedDataPath
       ProcessedData: EmodulRawDataPath
-    out:  constutive_parameters
+    out:  [constutive_parameters]
